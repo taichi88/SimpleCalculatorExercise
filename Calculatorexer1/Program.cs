@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Enter the Operation Symbol \n+ \n- \n* \n/ ");
+        Console.WriteLine("Enter the one of the Operation Symbol \n+ \n- \n* \n/ ");
         string operation = Console.ReadLine();
         if (operation != "+" && operation != "-" && operation != "*" && operation != "/")
 
