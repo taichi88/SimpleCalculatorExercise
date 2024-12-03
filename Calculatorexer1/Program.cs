@@ -43,7 +43,7 @@ class Program
                     Console.WriteLine(degree + "\tdegree of the number you entered is " + numDegree);
                 }
                 Console.WriteLine("\tIf you would like to continue press 'y' ");
-                string askUser = Console.ReadLine();
+                string askUser = Console.ReadLine().ToLower();
                 { if (askUser != "y")
                 {
 
@@ -75,7 +75,7 @@ class Program
                         }
                 Console.WriteLine("\tThe first number is {0}, The second number is {1},", num1, num2);
                 Console.WriteLine("\tIf you would like to continue press 'y' ");
-                string askUser = Console.ReadLine();
+                string askUser = Console.ReadLine().ToLower();
                 if (askUser != "y")
                 {             
                     continue1 = false;
